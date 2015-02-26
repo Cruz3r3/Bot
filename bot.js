@@ -1,3 +1,3 @@
 (function() {
-    alert("Bot working !");
+    $('.app-header').css('background','red');
 }).call(this);
