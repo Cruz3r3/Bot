@@ -21,7 +21,7 @@
     }
     
     function callEvents() {
-        if (plugMe.settings.autowoot) { woot(); }
+        if (plugMe.settings.autowoot) woot();
     }
     
     function woot() { $('#woot').click(); }
@@ -39,9 +39,10 @@
             }, 2000);
         }
         
-        callEvents();
+        
     }
     
     startup();
+    callEvents();
     
 }).call(this);
