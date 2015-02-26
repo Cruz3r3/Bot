@@ -21,7 +21,7 @@
     }
     
     function callEvents() {
-        if (plugMe) { woot(); }
+        if (plugMe.settings.autowoot) { woot(); }
     }
     
     function woot() { $('#woot').click(); }
