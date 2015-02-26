@@ -6,7 +6,7 @@
         version: "0.1",
         UI: true,
         settings: {}
-    }
+    };
     
     /*function kill() {}*/
     
