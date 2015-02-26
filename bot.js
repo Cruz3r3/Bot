@@ -4,8 +4,8 @@
         status: false,
         name: "PlugMe",
         version: "0.1",
-        UI: true;
-        
+        UI: true,
+        settings: {}
     }
     
     /*function kill() {}*/
