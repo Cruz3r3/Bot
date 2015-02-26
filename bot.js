@@ -25,7 +25,7 @@
         
         if (plugMe.status == true) {
             setTimeout(function() {
-                $("brand").css("background", "#A9D133");
+                $("#brand").css("background", "#A9D133");
             }, 2000);
         }
     }
