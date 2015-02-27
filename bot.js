@@ -20,7 +20,7 @@
                 $('#woot').click();
             },
             changeBackground: function(background, url) {
-        		$('body').css('background','url(' + url + ')');
+        		$('.room-background').css('background','url(' + url + ')');
                 settings.background = (background != null) ? settings.background = background : settings.background ;
                 settings.backgroundURL = (background != null) ? settings.background = background : settings.background ;
         }
