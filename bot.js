@@ -12,9 +12,6 @@
             background: "Default",
             backgroundURL: "https://cdn.plug.dj/_/static/images/community/custom/2014winter/background.36c25eacab985b0feaaee1805ea53903f9f5c58a.jpg"
         },
-        data = {
-            
-        },
         events = {
             woot: function() {
                 $('#woot').click();
@@ -23,7 +20,7 @@
         		$('body').css('background','url(' + url + ')');
                 settings.background = (background != null) ? settings.background = background : settings.background ;
                 settings.backgroundURL = (background != null) ? settings.background = background : settings.background ;
-        		//$('.room-background').css('background','url("http://giant.gfycat.com/GleamingSeriousAlbino.gif")');
+            }
         }
     };
     
@@ -53,7 +50,7 @@
         if (plugMe.status == true) {
             setTimeout(function() {
                 $("#brand").css("background", "#A9D133");
-            }, 2000);
+            }, 1000);
         }
         
         
