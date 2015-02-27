@@ -42,7 +42,7 @@
     
     
     function startup() {
-        //loadUI();
+        loadUI();
         
         plugMe.status = true;
         
