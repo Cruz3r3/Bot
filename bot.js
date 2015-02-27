@@ -35,7 +35,7 @@
     }
     
     function callEvents() {
-        if (plugMe.settings.autowoot) events.woot();
+        if (settings.autowoot) events.woot();
         $("#theme-select").on('change', function() {
         	var background = $("#theme-select option:selected").text();
         	var backgroundURL = $("#theme-select option:selected").val();
@@ -52,7 +52,7 @@
         if (plugMe.status == true) {
             setTimeout(function() {
                 $("#brand").css("background", "#A9D133");
-            }, 2000);
+            }, 1500);
         }
         
         
