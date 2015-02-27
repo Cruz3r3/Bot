@@ -18,11 +18,10 @@
             },
             changeBackground: function(background, url) {
         		$('body').css('background','url(' + url + ')');
-                settings.background = (background != null) ? settings.background = background : settings.background ;
-                settings.backgroundURL = (background != null) ? settings.background = background : settings.background ;
+                settings.background = (background != null) ? settings.background = background : settings.background;
+                settings.backgroundURL = (background != null) ? settings.background = background : settings.background;
             }
-        }
-    };
+        };
     
     
     /*function kill() {}*/
