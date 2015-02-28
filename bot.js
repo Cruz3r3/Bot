@@ -56,11 +56,6 @@
         
     }
     
-    var start = function startup() {
-        startup()
-    };
-    
-    start();
-    	
+    startup()
     
 }).call(this);
